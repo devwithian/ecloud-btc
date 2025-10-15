@@ -40,7 +40,7 @@ jobs:
           tar -czf deployment.tar.gz .next node_modules package.json package-lock.json ecosystem.config.cjs
 
       - name: Deploy to Main Server
-        uses: appleboy/scp-action@v0.1.7
+        uses: appleboy/scp-action@v1.0.0
         with:
           host: ${{ secrets.DEVWITHIAN_EC2_HOST }}
           username: ${{ secrets.DEVWITHIAN_EC2_USERNAME }}
