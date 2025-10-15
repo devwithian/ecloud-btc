@@ -1,0 +1,2 @@
+ALTER TABLE "guesses" ADD COLUMN "price_cache_id_at_guess" integer;--> statement-breakpoint
+ALTER TABLE "guesses" ADD CONSTRAINT "guesses_price_cache_id_at_guess_price_cache_id_fk" FOREIGN KEY ("price_cache_id_at_guess") REFERENCES "public"."price_cache"("id") ON DELETE no action ON UPDATE no action;

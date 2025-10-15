@@ -1,0 +1,335 @@
+2025-10-13T22:07:31:  ⨯ Failed to start server
+2025-10-13T22:07:31:  ⨯ Failed to start server
+2025-10-13T22:07:32:  ⨯ Failed to start server
+2025-10-13T22:07:32:  ⨯ Failed to start server
+2025-10-13T22:07:32:  ⨯ Failed to start server
+2025-10-13T22:07:32:  ⨯ Failed to start server
+2025-10-13T22:07:32:  ⨯ Failed to start server
+2025-10-13T22:07:33:  ⨯ Failed to start server
+2025-10-13T22:07:33:  ⨯ Failed to start server
+2025-10-13T22:07:33:  ⨯ Failed to start server
+2025-10-13T22:07:33:  ⨯ Failed to start server
+2025-10-13T22:07:34:  ⨯ Failed to start server
+2025-10-13T22:07:34:  ⨯ Failed to start server
+2025-10-13T22:07:34:  ⨯ Failed to start server
+2025-10-13T22:07:34:  ⨯ Failed to start server
+2025-10-13T22:07:34:  ⨯ Failed to start server
+2025-10-13T22:09:02: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:03: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:04: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:04: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:05: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:06: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:06: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:07: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:08: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:08: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:09: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:10: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:10: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:11: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:12: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:13: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:09:13: [Error: Could not find a production build in the '.next' directory. Try building your app with 'next build' before starting the production server. https://nextjs.org/docs/messages/production-start-no-build-id]
+2025-10-13T22:17:27: Error: Failed query: insert into "players" ("id", "user_id", "score", "created_at", "updated_at") values (default, $1, $2, default, default) returning "id", "user_id", "score", "created_at", "updated_at"
+params: user_341gm0grTTzRQg8awsha5DqWWmH,0
+    at p.queryWithCache (.next/server/chunks/7656.js:2:2006)
+    at async (.next/server/chunks/7656.js:8:13261)
+    at async (.next/server/app/[locale]/api/protected/me/route.js:1:12232)
+    at async (.next/server/chunks/5009.js:1:17239)
+    at async k (.next/server/app/[locale]/api/protected/guesses/active/route.js:1:6629)
+    at async g (.next/server/app/[locale]/api/protected/guesses/active/route.js:1:7632) {
+  query: 'insert into "players" ("id", "user_id", "score", "created_at", "updated_at") values (default, $1, $2, default, default) returning "id", "user_id", "score", "created_at", "updated_at"',
+  params: [Array],
+  [cause]: error: duplicate key value violates unique constraint "user_id_cleark_idx"
+      at async (.next/server/chunks/7656.js:8:13471)
+      at async p.queryWithCache (.next/server/chunks/7656.js:2:1981)
+      at async (.next/server/chunks/7656.js:8:13261)
+      at async (.next/server/app/[locale]/api/protected/me/route.js:1:12232)
+      at async (.next/server/chunks/5009.js:1:17239)
+      at async k (.next/server/app/[locale]/api/protected/guesses/active/route.js:1:6629) {
+    length: 234,
+    severity: 'ERROR',
+    code: '23505',
+    detail: 'Key (user_id)=(user_341gm0grTTzRQg8awsha5DqWWmH) already exists.',
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: 'public',
+    table: 'players',
+    column: undefined,
+    dataType: undefined,
+    constraint: 'user_id_cleark_idx',
+    file: 'nbtinsert.c',
+    line: '673',
+    routine: '_bt_check_unique'
+  }
+}
+2025-10-13T22:17:27: Error: Failed query: insert into "players" ("id", "user_id", "score", "created_at", "updated_at") values (default, $1, $2, default, default) returning "id", "user_id", "score", "created_at", "updated_at"
+params: user_341gm0grTTzRQg8awsha5DqWWmH,0
+    at p.queryWithCache (.next/server/chunks/7656.js:2:2006)
+    at async (.next/server/chunks/7656.js:8:13261)
+    at async (.next/server/app/[locale]/api/protected/me/route.js:1:12232)
+    at async (.next/server/chunks/5009.js:1:17239)
+    at async k (.next/server/app/[locale]/api/protected/price/chart/route.js:1:4687)
+    at async g (.next/server/app/[locale]/api/protected/price/chart/route.js:1:5690) {
+  query: 'insert into "players" ("id", "user_id", "score", "created_at", "updated_at") values (default, $1, $2, default, default) returning "id", "user_id", "score", "created_at", "updated_at"',
+  params: [Array],
+  [cause]: error: duplicate key value violates unique constraint "user_id_cleark_idx"
+      at async (.next/server/chunks/7656.js:8:13471)
+      at async p.queryWithCache (.next/server/chunks/7656.js:2:1981)
+      at async (.next/server/chunks/7656.js:8:13261)
+      at async (.next/server/app/[locale]/api/protected/me/route.js:1:12232)
+      at async (.next/server/chunks/5009.js:1:17239)
+      at async k (.next/server/app/[locale]/api/protected/price/chart/route.js:1:4687) {
+    length: 234,
+    severity: 'ERROR',
+    code: '23505',
+    detail: 'Key (user_id)=(user_341gm0grTTzRQg8awsha5DqWWmH) already exists.',
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: undefined,
+    schema: 'public',
+    table: 'players',
+    column: undefined,
+    dataType: undefined,
+    constraint: 'user_id_cleark_idx',
+    file: 'nbtinsert.c',
+    line: '673',
+    routine: '_bt_check_unique'
+  }
+}
+2025-10-13T22:27:15:  ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/.next/server/pages/_document.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/require.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/load-components.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/utils.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/options.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/index.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/cli/next-test.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/bin/next
+    at Object.<anonymous> (.next/server/pages/_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+2025-10-13T22:27:15:  ⨯ Error: Cannot find module '../../../../../../../chunks/[turbopack]_runtime.js'
+Require stack:
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/.next/server/app/[locale]/api/protected/guesses/active/resolve/route.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/require.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/load-components.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/utils.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/options.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/index.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/cli/next-test.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/bin/next
+    at Object.<anonymous> (.next/server/app/[locale]/api/protected/guesses/active/resolve/route.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+2025-10-13T22:27:15:  ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/.next/server/pages/_document.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/require.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/load-components.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/utils.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/options.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/index.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/cli/next-test.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/bin/next
+    at Object.<anonymous> (.next/server/pages/_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+2025-10-13T22:27:16: [Error: Failed to find Server Action "7f9d14f20fbefabd46f7aaa215c77619e121dcd27e". This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+2025-10-13T22:27:17: [Error: Failed to find Server Action "7f9d14f20fbefabd46f7aaa215c77619e121dcd27e". This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+2025-10-13T22:27:20:  ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/.next/server/pages/_document.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/require.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/load-components.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/utils.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/options.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/index.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/cli/next-test.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/bin/next
+    at Object.<anonymous> (.next/server/pages/_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+2025-10-13T22:27:20:  ⨯ Error: Cannot find module '../../../../../../../chunks/[turbopack]_runtime.js'
+Require stack:
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/.next/server/app/[locale]/api/protected/guesses/active/resolve/route.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/require.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/load-components.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/utils.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/options.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/index.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/cli/next-test.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/bin/next
+    at Object.<anonymous> (.next/server/app/[locale]/api/protected/guesses/active/resolve/route.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+2025-10-13T22:27:20:  ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/.next/server/pages/_document.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/require.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/load-components.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/utils.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/options.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/index.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/cli/next-test.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/bin/next
+    at Object.<anonymous> (.next/server/pages/_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+2025-10-13T22:27:33:  ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/.next/server/pages/_document.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/require.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/load-components.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/utils.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/options.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/index.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/cli/next-test.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/bin/next
+    at Object.<anonymous> (.next/server/pages/_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+2025-10-13T22:27:33:  ⨯ Error: Cannot find module '../../../../../../../chunks/[turbopack]_runtime.js'
+Require stack:
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/.next/server/app/[locale]/api/protected/guesses/active/resolve/route.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/require.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/load-components.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/utils.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/options.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/index.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/cli/next-test.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/bin/next
+    at Object.<anonymous> (.next/server/app/[locale]/api/protected/guesses/active/resolve/route.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+2025-10-13T22:27:33:  ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/.next/server/pages/_document.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/require.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/load-components.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/utils.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/options.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/index.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/cli/next-test.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/bin/next
+    at Object.<anonymous> (.next/server/pages/_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+2025-10-13T22:27:44: [Error: Failed to find Server Action "7f9d14f20fbefabd46f7aaa215c77619e121dcd27e". This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+2025-10-13T22:27:50: [Error: Failed to find Server Action "7f9d14f20fbefabd46f7aaa215c77619e121dcd27e". This request might be from an older or newer deployment.
+Read more: https://nextjs.org/docs/messages/failed-to-find-server-action]
+2025-10-13T22:27:54:  ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/.next/server/pages/_document.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/require.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/load-components.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/utils.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/options.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/index.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/cli/next-test.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/bin/next
+    at Object.<anonymous> (.next/server/pages/_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+2025-10-13T22:27:56:  ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/.next/server/pages/_document.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/require.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/load-components.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/utils.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/options.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/index.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/cli/next-test.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/bin/next
+    at Object.<anonymous> (.next/server/pages/_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+2025-10-13T22:27:56:  ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/.next/server/pages/_document.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/require.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/load-components.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/utils.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/options.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/index.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/cli/next-test.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/bin/next
+    at Object.<anonymous> (.next/server/pages/_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+2025-10-13T22:28:01:  ⨯ Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/.next/server/pages/_document.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/require.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/load-components.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/utils.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/options.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/swc/index.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/server/config.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/cli/next-test.js
+- /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/next/dist/bin/next
+    at Object.<anonymous> (.next/server/pages/_document.js:1:7) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+2025-10-13T22:31:03: Failed to create guess: Error: active_guess_exists
+    at <unknown> (.next/server/app/[locale]/api/protected/guesses/route.js:1:8377)
+    at async q.transaction (.next/server/chunks/7656.js:8:14686)
+    at async (.next/server/app/[locale]/api/protected/guesses/route.js:1:8115)
+    at async (.next/server/chunks/5009.js:1:17239)
+    at async k (.next/server/app/[locale]/api/protected/guesses/route.js:1:3850)
+    at async g (.next/server/app/[locale]/api/protected/guesses/route.js:1:4853)
+2025-10-13T22:31:14: Failed to create guess: Error: active_guess_exists
+    at <unknown> (.next/server/app/[locale]/api/protected/guesses/route.js:1:8377)
+    at async q.transaction (.next/server/chunks/7656.js:8:14686)
+    at async (.next/server/app/[locale]/api/protected/guesses/route.js:1:8115)
+    at async (.next/server/chunks/5009.js:1:17239)
+    at async k (.next/server/app/[locale]/api/protected/guesses/route.js:1:3850)
+    at async g (.next/server/app/[locale]/api/protected/guesses/route.js:1:4853)

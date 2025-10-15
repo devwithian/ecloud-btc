@@ -1,0 +1,1216 @@
+2025-10-13T22:03:19: ❌ Invalid environment variables: [
+2025-10-13T22:03:19:   {
+2025-10-13T22:03:19:     expected: 'string',
+2025-10-13T22:03:19:     code: 'invalid_type',
+2025-10-13T22:03:19:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:19:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:19:   },
+2025-10-13T22:03:19:   {
+2025-10-13T22:03:19:     expected: 'string',
+2025-10-13T22:03:19:     code: 'invalid_type',
+2025-10-13T22:03:19:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:19:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:19:   },
+2025-10-13T22:03:19:   {
+2025-10-13T22:03:19:     expected: 'string',
+2025-10-13T22:03:19:     code: 'invalid_type',
+2025-10-13T22:03:19:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:19:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:19:   }
+2025-10-13T22:03:19: ]
+2025-10-13T22:03:19: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:19: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:19: 		      ^
+2025-10-13T22:03:19: 
+2025-10-13T22:03:19: 
+2025-10-13T22:03:19: Error: Invalid environment variables
+2025-10-13T22:03:19:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:19:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:19:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:19:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:19:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:19:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:19:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:19:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:19:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:19:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:19: 
+2025-10-13T22:03:19: Node.js v22.20.0
+2025-10-13T22:03:20: ❌ Invalid environment variables: [
+2025-10-13T22:03:20:   {
+2025-10-13T22:03:20:     expected: 'string',
+2025-10-13T22:03:20:     code: 'invalid_type',
+2025-10-13T22:03:20:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:20:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:20:   },
+2025-10-13T22:03:20:   {
+2025-10-13T22:03:20:     expected: 'string',
+2025-10-13T22:03:20:     code: 'invalid_type',
+2025-10-13T22:03:20:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:20:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:20:   },
+2025-10-13T22:03:20:   {
+2025-10-13T22:03:20:     expected: 'string',
+2025-10-13T22:03:20:     code: 'invalid_type',
+2025-10-13T22:03:20:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:20:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:20:   }
+2025-10-13T22:03:20: ]
+2025-10-13T22:03:20: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:20: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:20: 		      ^
+2025-10-13T22:03:20: 
+2025-10-13T22:03:20: 
+2025-10-13T22:03:20: Error: Invalid environment variables
+2025-10-13T22:03:20:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:20:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:20:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:20:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:20:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:20:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:20:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:20:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:20:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:20:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:20: 
+2025-10-13T22:03:20: Node.js v22.20.0
+2025-10-13T22:03:20: ❌ Invalid environment variables: [
+2025-10-13T22:03:20:   {
+2025-10-13T22:03:20:     expected: 'string',
+2025-10-13T22:03:20:     code: 'invalid_type',
+2025-10-13T22:03:20:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:20:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:20:   },
+2025-10-13T22:03:20:   {
+2025-10-13T22:03:20:     expected: 'string',
+2025-10-13T22:03:20:     code: 'invalid_type',
+2025-10-13T22:03:20:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:20:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:20:   },
+2025-10-13T22:03:20:   {
+2025-10-13T22:03:20:     expected: 'string',
+2025-10-13T22:03:20:     code: 'invalid_type',
+2025-10-13T22:03:20:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:20:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:20:   }
+2025-10-13T22:03:20: ]
+2025-10-13T22:03:20: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:20: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:20: 		      ^
+2025-10-13T22:03:20: 
+2025-10-13T22:03:20: 
+2025-10-13T22:03:20: Error: Invalid environment variables
+2025-10-13T22:03:20:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:20:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:20:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:20:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:20:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:20:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:20:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:20:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:20:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:20:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:20: 
+2025-10-13T22:03:20: Node.js v22.20.0
+2025-10-13T22:03:20: ❌ Invalid environment variables: [
+2025-10-13T22:03:20:   {
+2025-10-13T22:03:20:     expected: 'string',
+2025-10-13T22:03:20:     code: 'invalid_type',
+2025-10-13T22:03:20:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:20:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:20:   },
+2025-10-13T22:03:20:   {
+2025-10-13T22:03:20:     expected: 'string',
+2025-10-13T22:03:20:     code: 'invalid_type',
+2025-10-13T22:03:20:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:20:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:20:   },
+2025-10-13T22:03:20:   {
+2025-10-13T22:03:20:     expected: 'string',
+2025-10-13T22:03:20:     code: 'invalid_type',
+2025-10-13T22:03:20:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:20:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:20:   }
+2025-10-13T22:03:20: ]
+2025-10-13T22:03:20: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:20: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:20: 		      ^
+2025-10-13T22:03:20: 
+2025-10-13T22:03:20: 
+2025-10-13T22:03:20: Error: Invalid environment variables
+2025-10-13T22:03:20:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:20:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:20:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:20:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:20:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:20:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:20:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:20:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:20:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:20:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:20: 
+2025-10-13T22:03:20: Node.js v22.20.0
+2025-10-13T22:03:21: ❌ Invalid environment variables: [
+2025-10-13T22:03:21:   {
+2025-10-13T22:03:21:     expected: 'string',
+2025-10-13T22:03:21:     code: 'invalid_type',
+2025-10-13T22:03:21:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:21:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:21:   },
+2025-10-13T22:03:21:   {
+2025-10-13T22:03:21:     expected: 'string',
+2025-10-13T22:03:21:     code: 'invalid_type',
+2025-10-13T22:03:21:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:21:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:21:   },
+2025-10-13T22:03:21:   {
+2025-10-13T22:03:21:     expected: 'string',
+2025-10-13T22:03:21:     code: 'invalid_type',
+2025-10-13T22:03:21:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:21:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:21:   }
+2025-10-13T22:03:21: ]
+2025-10-13T22:03:21: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:21: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:21: 		      ^
+2025-10-13T22:03:21: 
+2025-10-13T22:03:21: 
+2025-10-13T22:03:21: Error: Invalid environment variables
+2025-10-13T22:03:21:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:21:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:21:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:21:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:21:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:21:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:21:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:21:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:21:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:21:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:21: 
+2025-10-13T22:03:21: Node.js v22.20.0
+2025-10-13T22:03:21: ❌ Invalid environment variables: [
+2025-10-13T22:03:21:   {
+2025-10-13T22:03:21:     expected: 'string',
+2025-10-13T22:03:21:     code: 'invalid_type',
+2025-10-13T22:03:21:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:21:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:21:   },
+2025-10-13T22:03:21:   {
+2025-10-13T22:03:21:     expected: 'string',
+2025-10-13T22:03:21:     code: 'invalid_type',
+2025-10-13T22:03:21:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:21:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:21:   },
+2025-10-13T22:03:21:   {
+2025-10-13T22:03:21:     expected: 'string',
+2025-10-13T22:03:21:     code: 'invalid_type',
+2025-10-13T22:03:21:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:21:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:21:   }
+2025-10-13T22:03:21: ]
+2025-10-13T22:03:21: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:21: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:21: 		      ^
+2025-10-13T22:03:21: 
+2025-10-13T22:03:21: 
+2025-10-13T22:03:21: Error: Invalid environment variables
+2025-10-13T22:03:21:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:21:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:21:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:21:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:21:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:21:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:21:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:21:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:21:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:21:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:21: 
+2025-10-13T22:03:21: Node.js v22.20.0
+2025-10-13T22:03:22: ❌ Invalid environment variables: [
+2025-10-13T22:03:22:   {
+2025-10-13T22:03:22:     expected: 'string',
+2025-10-13T22:03:22:     code: 'invalid_type',
+2025-10-13T22:03:22:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:22:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:22:   },
+2025-10-13T22:03:22:   {
+2025-10-13T22:03:22:     expected: 'string',
+2025-10-13T22:03:22:     code: 'invalid_type',
+2025-10-13T22:03:22:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:22:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:22:   },
+2025-10-13T22:03:22:   {
+2025-10-13T22:03:22:     expected: 'string',
+2025-10-13T22:03:22:     code: 'invalid_type',
+2025-10-13T22:03:22:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:22:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:22:   }
+2025-10-13T22:03:22: ]
+2025-10-13T22:03:22: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:22: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:22: 		      ^
+2025-10-13T22:03:22: 
+2025-10-13T22:03:22: 
+2025-10-13T22:03:22: Error: Invalid environment variables
+2025-10-13T22:03:22:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:22:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:22:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:22:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:22:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:22:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:22:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:22:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:22:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:22:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:22: 
+2025-10-13T22:03:22: Node.js v22.20.0
+2025-10-13T22:03:22: ❌ Invalid environment variables: [
+2025-10-13T22:03:22:   {
+2025-10-13T22:03:22:     expected: 'string',
+2025-10-13T22:03:22:     code: 'invalid_type',
+2025-10-13T22:03:22:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:22:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:22:   },
+2025-10-13T22:03:22:   {
+2025-10-13T22:03:22:     expected: 'string',
+2025-10-13T22:03:22:     code: 'invalid_type',
+2025-10-13T22:03:22:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:22:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:22:   },
+2025-10-13T22:03:22:   {
+2025-10-13T22:03:22:     expected: 'string',
+2025-10-13T22:03:22:     code: 'invalid_type',
+2025-10-13T22:03:22:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:22:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:22:   }
+2025-10-13T22:03:22: ]
+2025-10-13T22:03:22: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:22: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:22: 		      ^
+2025-10-13T22:03:22: 
+2025-10-13T22:03:22: 
+2025-10-13T22:03:22: Error: Invalid environment variables
+2025-10-13T22:03:22:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:22:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:22:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:22:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:22:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:22:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:22:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:22:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:22:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:22:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:22: 
+2025-10-13T22:03:22: Node.js v22.20.0
+2025-10-13T22:03:22: ❌ Invalid environment variables: [
+2025-10-13T22:03:22:   {
+2025-10-13T22:03:22:     expected: 'string',
+2025-10-13T22:03:22:     code: 'invalid_type',
+2025-10-13T22:03:22:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:22:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:22:   },
+2025-10-13T22:03:22:   {
+2025-10-13T22:03:22:     expected: 'string',
+2025-10-13T22:03:22:     code: 'invalid_type',
+2025-10-13T22:03:22:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:22:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:22:   },
+2025-10-13T22:03:22:   {
+2025-10-13T22:03:22:     expected: 'string',
+2025-10-13T22:03:22:     code: 'invalid_type',
+2025-10-13T22:03:22:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:22:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:22:   }
+2025-10-13T22:03:22: ]
+2025-10-13T22:03:22: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:22: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:22: 		      ^
+2025-10-13T22:03:22: 
+2025-10-13T22:03:22: 
+2025-10-13T22:03:22: Error: Invalid environment variables
+2025-10-13T22:03:22:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:22:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:22:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:22:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:22:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:22:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:22:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:22:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:22:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:22:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:22: 
+2025-10-13T22:03:22: Node.js v22.20.0
+2025-10-13T22:03:23: ❌ Invalid environment variables: [
+2025-10-13T22:03:23:   {
+2025-10-13T22:03:23:     expected: 'string',
+2025-10-13T22:03:23:     code: 'invalid_type',
+2025-10-13T22:03:23:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:23:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:23:   },
+2025-10-13T22:03:23:   {
+2025-10-13T22:03:23:     expected: 'string',
+2025-10-13T22:03:23:     code: 'invalid_type',
+2025-10-13T22:03:23:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:23:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:23:   },
+2025-10-13T22:03:23:   {
+2025-10-13T22:03:23:     expected: 'string',
+2025-10-13T22:03:23:     code: 'invalid_type',
+2025-10-13T22:03:23:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:23:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:23:   }
+2025-10-13T22:03:23: ]
+2025-10-13T22:03:23: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:23: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:23: 		      ^
+2025-10-13T22:03:23: 
+2025-10-13T22:03:23: 
+2025-10-13T22:03:23: Error: Invalid environment variables
+2025-10-13T22:03:23:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:23:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:23:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:23:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:23:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:23:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:23:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:23:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:23:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:23:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:23: 
+2025-10-13T22:03:23: Node.js v22.20.0
+2025-10-13T22:03:23: ❌ Invalid environment variables: [
+2025-10-13T22:03:23:   {
+2025-10-13T22:03:23:     expected: 'string',
+2025-10-13T22:03:23:     code: 'invalid_type',
+2025-10-13T22:03:23:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:23:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:23:   },
+2025-10-13T22:03:23:   {
+2025-10-13T22:03:23:     expected: 'string',
+2025-10-13T22:03:23:     code: 'invalid_type',
+2025-10-13T22:03:23:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:23:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:23:   },
+2025-10-13T22:03:23:   {
+2025-10-13T22:03:23:     expected: 'string',
+2025-10-13T22:03:23:     code: 'invalid_type',
+2025-10-13T22:03:23:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:23:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:23:   }
+2025-10-13T22:03:23: ]
+2025-10-13T22:03:23: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:23: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:23: 		      ^
+2025-10-13T22:03:23: 
+2025-10-13T22:03:23: 
+2025-10-13T22:03:23: Error: Invalid environment variables
+2025-10-13T22:03:23:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:23:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:23:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:23:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:23:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:23:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:23:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:23:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:23:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:23:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:23: 
+2025-10-13T22:03:23: Node.js v22.20.0
+2025-10-13T22:03:24: ❌ Invalid environment variables: [
+2025-10-13T22:03:24:   {
+2025-10-13T22:03:24:     expected: 'string',
+2025-10-13T22:03:24:     code: 'invalid_type',
+2025-10-13T22:03:24:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:24:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:24:   },
+2025-10-13T22:03:24:   {
+2025-10-13T22:03:24:     expected: 'string',
+2025-10-13T22:03:24:     code: 'invalid_type',
+2025-10-13T22:03:24:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:24:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:24:   },
+2025-10-13T22:03:24:   {
+2025-10-13T22:03:24:     expected: 'string',
+2025-10-13T22:03:24:     code: 'invalid_type',
+2025-10-13T22:03:24:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:24:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:24:   }
+2025-10-13T22:03:24: ]
+2025-10-13T22:03:24: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:24: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:24: 		      ^
+2025-10-13T22:03:24: 
+2025-10-13T22:03:24: 
+2025-10-13T22:03:24: Error: Invalid environment variables
+2025-10-13T22:03:24:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:24:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:24:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:24:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:24:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:24:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:24:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:24:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:24:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:24:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:24: 
+2025-10-13T22:03:24: Node.js v22.20.0
+2025-10-13T22:03:24: ❌ Invalid environment variables: [
+2025-10-13T22:03:24:   {
+2025-10-13T22:03:24:     expected: 'string',
+2025-10-13T22:03:24:     code: 'invalid_type',
+2025-10-13T22:03:24:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:24:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:24:   },
+2025-10-13T22:03:24:   {
+2025-10-13T22:03:24:     expected: 'string',
+2025-10-13T22:03:24:     code: 'invalid_type',
+2025-10-13T22:03:24:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:24:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:24:   },
+2025-10-13T22:03:24:   {
+2025-10-13T22:03:24:     expected: 'string',
+2025-10-13T22:03:24:     code: 'invalid_type',
+2025-10-13T22:03:24:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:24:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:24:   }
+2025-10-13T22:03:24: ]
+2025-10-13T22:03:24: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:24: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:24: 		      ^
+2025-10-13T22:03:24: 
+2025-10-13T22:03:24: 
+2025-10-13T22:03:24: Error: Invalid environment variables
+2025-10-13T22:03:24:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:24:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:24:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:24:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:24:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:24:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:24:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:24:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:24:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:24:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:24: 
+2025-10-13T22:03:24: Node.js v22.20.0
+2025-10-13T22:03:24: ❌ Invalid environment variables: [
+2025-10-13T22:03:24:   {
+2025-10-13T22:03:24:     expected: 'string',
+2025-10-13T22:03:24:     code: 'invalid_type',
+2025-10-13T22:03:24:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:24:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:24:   },
+2025-10-13T22:03:24:   {
+2025-10-13T22:03:24:     expected: 'string',
+2025-10-13T22:03:24:     code: 'invalid_type',
+2025-10-13T22:03:24:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:24:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:24:   },
+2025-10-13T22:03:24:   {
+2025-10-13T22:03:24:     expected: 'string',
+2025-10-13T22:03:24:     code: 'invalid_type',
+2025-10-13T22:03:24:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:24:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:24:   }
+2025-10-13T22:03:24: ]
+2025-10-13T22:03:24: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:24: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:24: 		      ^
+2025-10-13T22:03:24: 
+2025-10-13T22:03:24: 
+2025-10-13T22:03:24: Error: Invalid environment variables
+2025-10-13T22:03:24:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:24:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:24:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:24:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:24:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:24:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:24:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:24:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:24:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:24:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:24: 
+2025-10-13T22:03:24: Node.js v22.20.0
+2025-10-13T22:03:25: ❌ Invalid environment variables: [
+2025-10-13T22:03:25:   {
+2025-10-13T22:03:25:     expected: 'string',
+2025-10-13T22:03:25:     code: 'invalid_type',
+2025-10-13T22:03:25:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:25:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:25:   },
+2025-10-13T22:03:25:   {
+2025-10-13T22:03:25:     expected: 'string',
+2025-10-13T22:03:25:     code: 'invalid_type',
+2025-10-13T22:03:25:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:25:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:25:   },
+2025-10-13T22:03:25:   {
+2025-10-13T22:03:25:     expected: 'string',
+2025-10-13T22:03:25:     code: 'invalid_type',
+2025-10-13T22:03:25:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:25:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:25:   }
+2025-10-13T22:03:25: ]
+2025-10-13T22:03:25: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:25: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:25: 		      ^
+2025-10-13T22:03:25: 
+2025-10-13T22:03:25: 
+2025-10-13T22:03:25: Error: Invalid environment variables
+2025-10-13T22:03:25:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:25:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:25:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:25:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:25:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:25:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:25:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:25:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:25:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:25:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:25: 
+2025-10-13T22:03:25: Node.js v22.20.0
+2025-10-13T22:03:25: ❌ Invalid environment variables: [
+2025-10-13T22:03:25:   {
+2025-10-13T22:03:25:     expected: 'string',
+2025-10-13T22:03:25:     code: 'invalid_type',
+2025-10-13T22:03:25:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:03:25:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:25:   },
+2025-10-13T22:03:25:   {
+2025-10-13T22:03:25:     expected: 'string',
+2025-10-13T22:03:25:     code: 'invalid_type',
+2025-10-13T22:03:25:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:03:25:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:25:   },
+2025-10-13T22:03:25:   {
+2025-10-13T22:03:25:     expected: 'string',
+2025-10-13T22:03:25:     code: 'invalid_type',
+2025-10-13T22:03:25:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:03:25:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:03:25:   }
+2025-10-13T22:03:25: ]
+2025-10-13T22:03:25: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:03:25: 		throw new Error("Invalid environment variables");
+2025-10-13T22:03:25: 		      ^
+2025-10-13T22:03:25: 
+2025-10-13T22:03:25: 
+2025-10-13T22:03:25: Error: Invalid environment variables
+2025-10-13T22:03:25:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:03:25:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:03:25:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:03:25:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:03:25:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:03:25:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:03:25:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:03:25:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:03:25:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:03:25:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:03:25: 
+2025-10-13T22:03:25: Node.js v22.20.0
+2025-10-13T22:04:06: ❌ Invalid environment variables: [
+2025-10-13T22:04:06:   {
+2025-10-13T22:04:06:     expected: 'string',
+2025-10-13T22:04:06:     code: 'invalid_type',
+2025-10-13T22:04:06:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:06:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:06:   },
+2025-10-13T22:04:06:   {
+2025-10-13T22:04:06:     expected: 'string',
+2025-10-13T22:04:06:     code: 'invalid_type',
+2025-10-13T22:04:06:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:06:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:06:   },
+2025-10-13T22:04:06:   {
+2025-10-13T22:04:06:     expected: 'string',
+2025-10-13T22:04:06:     code: 'invalid_type',
+2025-10-13T22:04:06:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:06:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:06:   }
+2025-10-13T22:04:06: ]
+2025-10-13T22:04:06: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:06: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:06: 		      ^
+2025-10-13T22:04:06: 
+2025-10-13T22:04:06: 
+2025-10-13T22:04:06: Error: Invalid environment variables
+2025-10-13T22:04:06:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:06:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:06:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:06:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:06:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:06:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:06:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:06:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:06:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:06:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:06: 
+2025-10-13T22:04:06: Node.js v22.20.0
+2025-10-13T22:04:07: ❌ Invalid environment variables: [
+2025-10-13T22:04:07:   {
+2025-10-13T22:04:07:     expected: 'string',
+2025-10-13T22:04:07:     code: 'invalid_type',
+2025-10-13T22:04:07:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:07:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:07:   },
+2025-10-13T22:04:07:   {
+2025-10-13T22:04:07:     expected: 'string',
+2025-10-13T22:04:07:     code: 'invalid_type',
+2025-10-13T22:04:07:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:07:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:07:   },
+2025-10-13T22:04:07:   {
+2025-10-13T22:04:07:     expected: 'string',
+2025-10-13T22:04:07:     code: 'invalid_type',
+2025-10-13T22:04:07:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:07:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:07:   }
+2025-10-13T22:04:07: ]
+2025-10-13T22:04:07: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:07: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:07: 		      ^
+2025-10-13T22:04:07: 
+2025-10-13T22:04:07: 
+2025-10-13T22:04:07: Error: Invalid environment variables
+2025-10-13T22:04:07:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:07:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:07:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:07:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:07:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:07:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:07:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:07:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:07:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:07:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:07: 
+2025-10-13T22:04:07: Node.js v22.20.0
+2025-10-13T22:04:07: ❌ Invalid environment variables: [
+2025-10-13T22:04:07:   {
+2025-10-13T22:04:07:     expected: 'string',
+2025-10-13T22:04:07:     code: 'invalid_type',
+2025-10-13T22:04:07:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:07:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:07:   },
+2025-10-13T22:04:07:   {
+2025-10-13T22:04:07:     expected: 'string',
+2025-10-13T22:04:07:     code: 'invalid_type',
+2025-10-13T22:04:07:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:07:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:07:   },
+2025-10-13T22:04:07:   {
+2025-10-13T22:04:07:     expected: 'string',
+2025-10-13T22:04:07:     code: 'invalid_type',
+2025-10-13T22:04:07:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:07:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:07:   }
+2025-10-13T22:04:07: ]
+2025-10-13T22:04:07: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:07: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:07: 		      ^
+2025-10-13T22:04:07: 
+2025-10-13T22:04:07: 
+2025-10-13T22:04:07: Error: Invalid environment variables
+2025-10-13T22:04:07:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:07:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:07:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:07:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:07:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:07:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:07:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:07:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:07:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:07:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:07: 
+2025-10-13T22:04:07: Node.js v22.20.0
+2025-10-13T22:04:08: ❌ Invalid environment variables: [
+2025-10-13T22:04:08:   {
+2025-10-13T22:04:08:     expected: 'string',
+2025-10-13T22:04:08:     code: 'invalid_type',
+2025-10-13T22:04:08:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:08:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:08:   },
+2025-10-13T22:04:08:   {
+2025-10-13T22:04:08:     expected: 'string',
+2025-10-13T22:04:08:     code: 'invalid_type',
+2025-10-13T22:04:08:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:08:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:08:   },
+2025-10-13T22:04:08:   {
+2025-10-13T22:04:08:     expected: 'string',
+2025-10-13T22:04:08:     code: 'invalid_type',
+2025-10-13T22:04:08:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:08:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:08:   }
+2025-10-13T22:04:08: ]
+2025-10-13T22:04:08: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:08: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:08: 		      ^
+2025-10-13T22:04:08: 
+2025-10-13T22:04:08: 
+2025-10-13T22:04:08: Error: Invalid environment variables
+2025-10-13T22:04:08:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:08:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:08:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:08:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:08:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:08:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:08:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:08:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:08:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:08:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:08: 
+2025-10-13T22:04:08: Node.js v22.20.0
+2025-10-13T22:04:08: ❌ Invalid environment variables: [
+2025-10-13T22:04:08:   {
+2025-10-13T22:04:08:     expected: 'string',
+2025-10-13T22:04:08:     code: 'invalid_type',
+2025-10-13T22:04:08:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:08:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:08:   },
+2025-10-13T22:04:08:   {
+2025-10-13T22:04:08:     expected: 'string',
+2025-10-13T22:04:08:     code: 'invalid_type',
+2025-10-13T22:04:08:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:08:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:08:   },
+2025-10-13T22:04:08:   {
+2025-10-13T22:04:08:     expected: 'string',
+2025-10-13T22:04:08:     code: 'invalid_type',
+2025-10-13T22:04:08:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:08:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:08:   }
+2025-10-13T22:04:08: ]
+2025-10-13T22:04:08: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:08: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:08: 		      ^
+2025-10-13T22:04:08: 
+2025-10-13T22:04:08: 
+2025-10-13T22:04:08: Error: Invalid environment variables
+2025-10-13T22:04:08:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:08:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:08:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:08:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:08:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:08:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:08:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:08:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:08:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:08:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:08: 
+2025-10-13T22:04:08: Node.js v22.20.0
+2025-10-13T22:04:09: ❌ Invalid environment variables: [
+2025-10-13T22:04:09:   {
+2025-10-13T22:04:09:     expected: 'string',
+2025-10-13T22:04:09:     code: 'invalid_type',
+2025-10-13T22:04:09:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:09:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:09:   },
+2025-10-13T22:04:09:   {
+2025-10-13T22:04:09:     expected: 'string',
+2025-10-13T22:04:09:     code: 'invalid_type',
+2025-10-13T22:04:09:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:09:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:09:   },
+2025-10-13T22:04:09:   {
+2025-10-13T22:04:09:     expected: 'string',
+2025-10-13T22:04:09:     code: 'invalid_type',
+2025-10-13T22:04:09:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:09:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:09:   }
+2025-10-13T22:04:09: ]
+2025-10-13T22:04:09: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:09: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:09: 		      ^
+2025-10-13T22:04:09: 
+2025-10-13T22:04:09: 
+2025-10-13T22:04:09: Error: Invalid environment variables
+2025-10-13T22:04:09:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:09:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:09:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:09:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:09:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:09:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:09:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:09:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:09:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:09:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:09: 
+2025-10-13T22:04:09: Node.js v22.20.0
+2025-10-13T22:04:09: ❌ Invalid environment variables: [
+2025-10-13T22:04:09:   {
+2025-10-13T22:04:09:     expected: 'string',
+2025-10-13T22:04:09:     code: 'invalid_type',
+2025-10-13T22:04:09:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:09:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:09:   },
+2025-10-13T22:04:09:   {
+2025-10-13T22:04:09:     expected: 'string',
+2025-10-13T22:04:09:     code: 'invalid_type',
+2025-10-13T22:04:09:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:09:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:09:   },
+2025-10-13T22:04:09:   {
+2025-10-13T22:04:09:     expected: 'string',
+2025-10-13T22:04:09:     code: 'invalid_type',
+2025-10-13T22:04:09:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:09:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:09:   }
+2025-10-13T22:04:09: ]
+2025-10-13T22:04:09: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:09: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:09: 		      ^
+2025-10-13T22:04:09: 
+2025-10-13T22:04:09: 
+2025-10-13T22:04:09: Error: Invalid environment variables
+2025-10-13T22:04:09:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:09:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:09:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:09:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:09:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:09:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:09:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:09:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:09:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:09:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:09: 
+2025-10-13T22:04:09: Node.js v22.20.0
+2025-10-13T22:04:09: ❌ Invalid environment variables: [
+2025-10-13T22:04:09:   {
+2025-10-13T22:04:09:     expected: 'string',
+2025-10-13T22:04:09:     code: 'invalid_type',
+2025-10-13T22:04:09:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:09:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:09:   },
+2025-10-13T22:04:09:   {
+2025-10-13T22:04:09:     expected: 'string',
+2025-10-13T22:04:09:     code: 'invalid_type',
+2025-10-13T22:04:09:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:09:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:09:   },
+2025-10-13T22:04:09:   {
+2025-10-13T22:04:09:     expected: 'string',
+2025-10-13T22:04:09:     code: 'invalid_type',
+2025-10-13T22:04:09:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:09:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:09:   }
+2025-10-13T22:04:09: ]
+2025-10-13T22:04:09: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:09: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:09: 		      ^
+2025-10-13T22:04:09: 
+2025-10-13T22:04:09: 
+2025-10-13T22:04:09: Error: Invalid environment variables
+2025-10-13T22:04:09:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:09:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:09:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:09:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:09:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:09:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:09:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:09:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:09:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:09:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:09: 
+2025-10-13T22:04:09: Node.js v22.20.0
+2025-10-13T22:04:10: ❌ Invalid environment variables: [
+2025-10-13T22:04:10:   {
+2025-10-13T22:04:10:     expected: 'string',
+2025-10-13T22:04:10:     code: 'invalid_type',
+2025-10-13T22:04:10:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:10:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:10:   },
+2025-10-13T22:04:10:   {
+2025-10-13T22:04:10:     expected: 'string',
+2025-10-13T22:04:10:     code: 'invalid_type',
+2025-10-13T22:04:10:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:10:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:10:   },
+2025-10-13T22:04:10:   {
+2025-10-13T22:04:10:     expected: 'string',
+2025-10-13T22:04:10:     code: 'invalid_type',
+2025-10-13T22:04:10:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:10:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:10:   }
+2025-10-13T22:04:10: ]
+2025-10-13T22:04:10: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:10: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:10: 		      ^
+2025-10-13T22:04:10: 
+2025-10-13T22:04:10: 
+2025-10-13T22:04:10: Error: Invalid environment variables
+2025-10-13T22:04:10:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:10:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:10:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:10:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:10:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:10:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:10:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:10:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:10:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:10:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:10: 
+2025-10-13T22:04:10: Node.js v22.20.0
+2025-10-13T22:04:10: ❌ Invalid environment variables: [
+2025-10-13T22:04:10:   {
+2025-10-13T22:04:10:     expected: 'string',
+2025-10-13T22:04:10:     code: 'invalid_type',
+2025-10-13T22:04:10:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:10:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:10:   },
+2025-10-13T22:04:10:   {
+2025-10-13T22:04:10:     expected: 'string',
+2025-10-13T22:04:10:     code: 'invalid_type',
+2025-10-13T22:04:10:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:10:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:10:   },
+2025-10-13T22:04:10:   {
+2025-10-13T22:04:10:     expected: 'string',
+2025-10-13T22:04:10:     code: 'invalid_type',
+2025-10-13T22:04:10:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:10:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:10:   }
+2025-10-13T22:04:10: ]
+2025-10-13T22:04:10: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:10: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:10: 		      ^
+2025-10-13T22:04:10: 
+2025-10-13T22:04:10: 
+2025-10-13T22:04:10: Error: Invalid environment variables
+2025-10-13T22:04:10:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:10:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:10:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:10:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:10:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:10:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:10:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:10:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:10:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:10:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:10: 
+2025-10-13T22:04:10: Node.js v22.20.0
+2025-10-13T22:04:10: ❌ Invalid environment variables: [
+2025-10-13T22:04:10:   {
+2025-10-13T22:04:10:     expected: 'string',
+2025-10-13T22:04:10:     code: 'invalid_type',
+2025-10-13T22:04:10:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:10:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:10:   },
+2025-10-13T22:04:10:   {
+2025-10-13T22:04:10:     expected: 'string',
+2025-10-13T22:04:10:     code: 'invalid_type',
+2025-10-13T22:04:10:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:10:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:10:   },
+2025-10-13T22:04:10:   {
+2025-10-13T22:04:10:     expected: 'string',
+2025-10-13T22:04:10:     code: 'invalid_type',
+2025-10-13T22:04:10:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:10:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:10:   }
+2025-10-13T22:04:10: ]
+2025-10-13T22:04:11: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:11: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:11: 		      ^
+2025-10-13T22:04:11: 
+2025-10-13T22:04:11: 
+2025-10-13T22:04:11: Error: Invalid environment variables
+2025-10-13T22:04:11:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:11:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:11:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:11:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:11:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:11:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:11:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:11:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:11:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:11:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:11: 
+2025-10-13T22:04:11: Node.js v22.20.0
+2025-10-13T22:04:11: ❌ Invalid environment variables: [
+2025-10-13T22:04:11:   {
+2025-10-13T22:04:11:     expected: 'string',
+2025-10-13T22:04:11:     code: 'invalid_type',
+2025-10-13T22:04:11:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:11:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:11:   },
+2025-10-13T22:04:11:   {
+2025-10-13T22:04:11:     expected: 'string',
+2025-10-13T22:04:11:     code: 'invalid_type',
+2025-10-13T22:04:11:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:11:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:11:   },
+2025-10-13T22:04:11:   {
+2025-10-13T22:04:11:     expected: 'string',
+2025-10-13T22:04:11:     code: 'invalid_type',
+2025-10-13T22:04:11:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:11:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:11:   }
+2025-10-13T22:04:11: ]
+2025-10-13T22:04:11: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:11: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:11: 		      ^
+2025-10-13T22:04:11: 
+2025-10-13T22:04:11: 
+2025-10-13T22:04:11: Error: Invalid environment variables
+2025-10-13T22:04:11:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:11:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:11:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:11:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:11:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:11:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:11:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:11:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:11:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:11:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:11: 
+2025-10-13T22:04:11: Node.js v22.20.0
+2025-10-13T22:04:11: ❌ Invalid environment variables: [
+2025-10-13T22:04:11:   {
+2025-10-13T22:04:11:     expected: 'string',
+2025-10-13T22:04:11:     code: 'invalid_type',
+2025-10-13T22:04:11:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:11:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:11:   },
+2025-10-13T22:04:11:   {
+2025-10-13T22:04:11:     expected: 'string',
+2025-10-13T22:04:11:     code: 'invalid_type',
+2025-10-13T22:04:11:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:11:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:11:   },
+2025-10-13T22:04:11:   {
+2025-10-13T22:04:11:     expected: 'string',
+2025-10-13T22:04:11:     code: 'invalid_type',
+2025-10-13T22:04:11:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:11:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:11:   }
+2025-10-13T22:04:11: ]
+2025-10-13T22:04:11: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:11: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:11: 		      ^
+2025-10-13T22:04:11: 
+2025-10-13T22:04:11: 
+2025-10-13T22:04:11: Error: Invalid environment variables
+2025-10-13T22:04:11:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:11:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:11:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:11:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:11:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:11:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:11:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:11:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:11:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:11:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:11: 
+2025-10-13T22:04:11: Node.js v22.20.0
+2025-10-13T22:04:12: ❌ Invalid environment variables: [
+2025-10-13T22:04:12:   {
+2025-10-13T22:04:12:     expected: 'string',
+2025-10-13T22:04:12:     code: 'invalid_type',
+2025-10-13T22:04:12:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:12:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:12:   },
+2025-10-13T22:04:12:   {
+2025-10-13T22:04:12:     expected: 'string',
+2025-10-13T22:04:12:     code: 'invalid_type',
+2025-10-13T22:04:12:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:12:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:12:   },
+2025-10-13T22:04:12:   {
+2025-10-13T22:04:12:     expected: 'string',
+2025-10-13T22:04:12:     code: 'invalid_type',
+2025-10-13T22:04:12:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:12:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:12:   }
+2025-10-13T22:04:12: ]
+2025-10-13T22:04:12: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:12: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:12: 		      ^
+2025-10-13T22:04:12: 
+2025-10-13T22:04:12: 
+2025-10-13T22:04:12: Error: Invalid environment variables
+2025-10-13T22:04:12:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:12:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:12:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:12:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:12:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:12:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:12:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:12:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:12:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:12:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:12: 
+2025-10-13T22:04:12: Node.js v22.20.0
+2025-10-13T22:04:12: ❌ Invalid environment variables: [
+2025-10-13T22:04:12:   {
+2025-10-13T22:04:12:     expected: 'string',
+2025-10-13T22:04:12:     code: 'invalid_type',
+2025-10-13T22:04:12:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:12:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:12:   },
+2025-10-13T22:04:12:   {
+2025-10-13T22:04:12:     expected: 'string',
+2025-10-13T22:04:12:     code: 'invalid_type',
+2025-10-13T22:04:12:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:12:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:12:   },
+2025-10-13T22:04:12:   {
+2025-10-13T22:04:12:     expected: 'string',
+2025-10-13T22:04:12:     code: 'invalid_type',
+2025-10-13T22:04:12:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:12:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:12:   }
+2025-10-13T22:04:12: ]
+2025-10-13T22:04:12: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:12: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:12: 		      ^
+2025-10-13T22:04:12: 
+2025-10-13T22:04:12: 
+2025-10-13T22:04:12: Error: Invalid environment variables
+2025-10-13T22:04:12:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:12:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:12:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:12:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:12:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:12:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:12:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:12:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:12:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:12:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:12: 
+2025-10-13T22:04:12: Node.js v22.20.0
+2025-10-13T22:04:12: ❌ Invalid environment variables: [
+2025-10-13T22:04:12:   {
+2025-10-13T22:04:12:     expected: 'string',
+2025-10-13T22:04:12:     code: 'invalid_type',
+2025-10-13T22:04:12:     path: [ 'CLERK_SECRET_KEY' ],
+2025-10-13T22:04:12:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:12:   },
+2025-10-13T22:04:12:   {
+2025-10-13T22:04:12:     expected: 'string',
+2025-10-13T22:04:12:     code: 'invalid_type',
+2025-10-13T22:04:12:     path: [ 'DATABASE_URL' ],
+2025-10-13T22:04:12:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:12:   },
+2025-10-13T22:04:12:   {
+2025-10-13T22:04:12:     expected: 'string',
+2025-10-13T22:04:12:     code: 'invalid_type',
+2025-10-13T22:04:12:     path: [ 'NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY' ],
+2025-10-13T22:04:12:     message: 'Invalid input: expected string, received undefined'
+2025-10-13T22:04:12:   }
+2025-10-13T22:04:12: ]
+2025-10-13T22:04:12: /Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54
+2025-10-13T22:04:12: 		throw new Error("Invalid environment variables");
+2025-10-13T22:04:12: 		      ^
+2025-10-13T22:04:12: 
+2025-10-13T22:04:12: 
+2025-10-13T22:04:12: Error: Invalid environment variables
+2025-10-13T22:04:12:     at onValidationError (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:54:9)
+2025-10-13T22:04:12:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-core/dist/src-Bb3GbGAa.js:59:28)
+2025-10-13T22:04:12:     at createEnv (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/@t3-oss/env-nextjs/dist/index.js:16:9)
+2025-10-13T22:04:12:     at z (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:4:20)
+2025-10-13T22:04:12:     at Object.<anonymous> (/Users/iagustian/Workspaces/GitHub/ecloud-btc/src/libs/Env.ts:35:2)
+2025-10-13T22:04:12:     at Module._compile (node:internal/modules/cjs/loader:1706:14)
+2025-10-13T22:04:12:     at Object.transformer (/Users/iagustian/Workspaces/GitHub/ecloud-btc/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+2025-10-13T22:04:12:     at Module.load (node:internal/modules/cjs/loader:1441:32)
+2025-10-13T22:04:12:     at Function._load (node:internal/modules/cjs/loader:1263:12)
+2025-10-13T22:04:12:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+2025-10-13T22:04:12: 
+2025-10-13T22:04:12: Node.js v22.20.0

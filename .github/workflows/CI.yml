@@ -1,0 +1,111 @@
+name: Deploy the BTC codebase to the main server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build and deploy to main server
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify via Slack [initiate the execution]
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_USERNAME: GitHubAction
+          SLACK_MESSAGE: Building and deploying to the Main server...
+          SLACK_TITLE: Github Action
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Next.js application
+        run: npm run build
+        env:
+          NODE_ENV: production
+
+      - name: Create deployment archive
+        run: |
+          tar -czf deployment.tar.gz .next node_modules package.json package-lock.json ecosystem.config.cjs
+
+      - name: Deploy to Main Server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.DEVWITHIAN_EC2_HOST }}
+          username: ${{ secrets.DEVWITHIAN_EC2_USERNAME }}
+          key: ${{ secrets.DEVWITHIAN_EC2_PK }}
+          source: deployment.tar.gz
+          target: /home/ec2-user/codebase/ecloud-btc/
+
+      - name: Extract and restart services
+        uses: appleboy/ssh-action@v1.1.0
+        with:
+          host: ${{ secrets.DEVWITHIAN_EC2_HOST }}
+          username: ${{ secrets.DEVWITHIAN_EC2_USERNAME }}
+          key: ${{ secrets.DEVWITHIAN_EC2_PK }}
+          script: |
+            cd /home/ec2-user/codebase/ecloud-btc
+
+            echo "🔄 Fetching latest code from repository..."
+            git fetch origin main
+            git reset --hard origin/main
+
+            echo "📦 Extracting deployment archive..."
+            tar -xzf deployment.tar.gz
+            rm deployment.tar.gz
+
+            echo "🗄️  Running database migrations..."
+            export NVM_DIR=~/.nvm
+            source ~/.nvm/nvm.sh
+            npm run db:migrate || echo "⚠️  No migrations to run or migration failed"
+
+            echo "🛑 Stopping PM2 processes gracefully..."
+            pm2 stop all || echo "⚠️  No PM2 processes to stop"
+
+            echo "🗑️  Deleting old PM2 processes..."
+            pm2 delete all || echo "⚠️  No PM2 processes to delete"
+
+            echo "🚀 Starting all PM2 processes..."
+            echo "   - Next.js App (port 3000)"
+            echo "   - BTC Price Worker (background)"
+            echo "   - Resolve Guess Worker (background)"
+            pm2 start ecosystem.config.cjs
+
+            echo "💾 Saving PM2 configuration..."
+            pm2 save
+
+            echo "📊 Current PM2 status:"
+            pm2 status
+
+            echo "✅ Deployment completed successfully!"
+            echo ""
+            echo "📝 Process details:"
+            pm2 list
+
+      - name: Notify via Slack [failure]
+        if: ${{ failure() }}
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_USERNAME: GitHubAction
+          SLACK_MESSAGE: ':warning: :warning: :warning: Error happened while executing the deployment scripts for the Main server!'
+          SLACK_TITLE: Github Action
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+
+      - name: Notify via Slack
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_USERNAME: GitHubAction
+          SLACK_MESSAGE: 'Successfully deployed the new change(s) to the main server! :100: '
+          SLACK_TITLE: Github Action
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}

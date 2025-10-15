@@ -1,0 +1,67 @@
+const path = require('node:path');
+require('dotenv').config();
+
+module.exports = {
+  apps: [
+    {
+      name: 'nextjs-app',
+      script: 'node_modules/next/dist/bin/next',
+      args: 'start',
+      cwd: path.resolve(__dirname),
+      instances: 1,
+      exec_mode: 'cluster',
+      autorestart: true,
+      watch: false,
+      max_memory_restart: '1G',
+      error_file: './logs/nextjs-error.log',
+      out_file: './logs/nextjs-out.log',
+      combine_logs: true,
+      time: true,
+      env_file: './.env',
+      env: {
+        NODE_ENV: 'production',
+        PORT: 3333,
+      },
+    },
+    {
+      name: 'btc-price-worker',
+      script: './src/worker/price.ts',
+      cwd: path.resolve(__dirname),
+      interpreter: './node_modules/.bin/tsx',
+      interpreter_args: '',
+      instances: 1,
+      exec_mode: 'fork',
+      autorestart: true,
+      watch: false,
+      max_memory_restart: '500M',
+      error_file: './logs/worker-error.log',
+      out_file: './logs/worker-out.log',
+      combine_logs: true,
+      time: true,
+      env_file: './.env',
+      env: {
+        NODE_ENV: 'production',
+      },
+    },
+    {
+      name: 'resolve-guess-worker',
+      script: './src/worker/guess.ts',
+      cwd: path.resolve(__dirname),
+      interpreter: './node_modules/.bin/tsx',
+      interpreter_args: '',
+      instances: 1,
+      exec_mode: 'fork',
+      autorestart: true,
+      watch: false,
+      max_memory_restart: '500M',
+      error_file: './logs/worker-guess-error.log',
+      out_file: './logs/worker-guess-out.log',
+      combine_logs: true,
+      time: true,
+      env_file: './.env',
+      env: {
+        NODE_ENV: 'production',
+      },
+    },
+  ],
+};
