@@ -77,6 +77,8 @@ describe('Guesses API - POST /api/guesses', () => {
       expiresAt: new Date(Date.now() + 60000),
       priceCacheIdAtGuess: 1,
       priceCacheIdAtResolve: null,
+      resolutionNotes: null,
+      resolvedBy: null,
     };
 
     vi.mocked(getLatestCachedPrice).mockResolvedValueOnce({
@@ -133,6 +135,8 @@ describe('Guesses API - POST /api/guesses', () => {
       expiresAt: new Date(Date.now() + 60000),
       priceCacheIdAtGuess: 1,
       priceCacheIdAtResolve: null,
+      resolutionNotes: null,
+      resolvedBy: null,
     };
 
     vi.mocked(getLatestCachedPrice).mockResolvedValueOnce({
@@ -188,6 +192,8 @@ describe('Guesses API - POST /api/guesses', () => {
       expiresAt: new Date(Date.now() + 60000),
       priceCacheIdAtGuess: 1,
       priceCacheIdAtResolve: null,
+      resolutionNotes: null,
+      resolvedBy: null,
     };
 
     vi.mocked(getLatestCachedPrice).mockResolvedValueOnce({
@@ -274,6 +280,8 @@ describe('Guesses API - GET /api/guesses/active', () => {
       expiresAt: new Date(Date.now() + 30000),
       priceCacheIdAtGuess: 1,
       priceCacheIdAtResolve: null,
+      resolutionNotes: null,
+      resolvedBy: null,
     };
 
     vi.mocked(getLatestCachedPrice).mockResolvedValueOnce({
@@ -358,6 +366,8 @@ describe('Guesses API - GET /api/guesses/active', () => {
       expiresAt: new Date(Date.now() + 50000),
       priceCacheIdAtGuess: 1,
       priceCacheIdAtResolve: null,
+      resolutionNotes: null,
+      resolvedBy: null,
     };
 
     vi.mocked(getLatestCachedPrice).mockResolvedValueOnce({
@@ -422,6 +432,8 @@ describe('Guesses API - POST /api/guesses/active/resolve', () => {
       expiresAt: new Date(Date.now() + 30000),
       priceCacheIdAtGuess: 1,
       priceCacheIdAtResolve: null,
+      resolutionNotes: null,
+      resolvedBy: null,
     };
 
     const resolvedGuess: Guess = {
@@ -487,6 +499,8 @@ describe('Guesses API - POST /api/guesses/active/resolve', () => {
       expiresAt: new Date(Date.now() + 30000),
       priceCacheIdAtGuess: 1,
       priceCacheIdAtResolve: null,
+      resolutionNotes: null,
+      resolvedBy: null,
     };
 
     const resolvedGuess: Guess = {
@@ -645,6 +659,8 @@ describe('Guesses API - POST /api/guesses/active/resolve', () => {
       expiresAt: new Date(Date.now() + 30000),
       priceCacheIdAtGuess: 1,
       priceCacheIdAtResolve: null,
+      resolutionNotes: null,
+      resolvedBy: null,
     };
 
     const resolvedGuess: Guess = {
@@ -710,6 +726,8 @@ describe('Guesses API - POST /api/guesses/active/resolve', () => {
       expiresAt: new Date(Date.now() + 30000),
       priceCacheIdAtGuess: 1,
       priceCacheIdAtResolve: null,
+      resolutionNotes: null,
+      resolvedBy: null,
     };
 
     const resolvedGuess: Guess = {

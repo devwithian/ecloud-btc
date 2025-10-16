@@ -49,6 +49,8 @@ export const POST = withAuth(async (_, player: Player) => {
         await tx.update(guessSchema).set({
           resolvedAt: now,
           priceCacheIdAtResolve: currentPrice.id,
+          resolvedBy: player.id,
+          resolutionNotes: isStale ? 'live_price_stale' : 'price_unchanged',
         }).where(eq(guessSchema.id, activeGuess.id));
 
         // throw new Error('price_stale');
@@ -64,6 +66,7 @@ export const POST = withAuth(async (_, player: Player) => {
         isCorrect: wasCorrect ? 1 : 0,
         priceAtResolve: currentPrice.price,
         priceCacheIdAtResolve: currentPrice.id,
+        resolvedBy: player.id,
       }).where(eq(guessSchema.id, activeGuess.id));
 
       // Update player score: +1 if correct, -1 if wrong (not below 0)

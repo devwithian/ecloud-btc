@@ -1,0 +1,2 @@
+ALTER TABLE "guesses" ADD COLUMN "resolved_by" integer;--> statement-breakpoint
+ALTER TABLE "guesses" ADD CONSTRAINT "guesses_resolved_by_players_id_fk" FOREIGN KEY ("resolved_by") REFERENCES "public"."players"("id") ON DELETE no action ON UPDATE no action;

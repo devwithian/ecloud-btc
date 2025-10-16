@@ -1,0 +1,1 @@
+ALTER TABLE "guesses" ADD COLUMN "resolution_notes" varchar(255);

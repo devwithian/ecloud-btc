@@ -69,6 +69,11 @@ export const guessSchema = pgTable('guesses', {
   // Add link to the price cache at the time of resolution (for historical reference)
   priceCacheIdAtResolve: integer('price_cache_id_at_resolve')
     .references(() => priceCacheSchema.id),
+  // Add who resolved the guess. Null if system resolved it, player ID if player resolved it
+  resolvedBy: integer('resolved_by')
+    .references(() => playerSchema.id),
+  // Add comments or notes about the guess resolution (e.g. 'price_stale')
+  resolutionNotes: varchar('resolution_notes', { length: 255 }),
 }, table => [
   index('player_id_idx').on(table.playerId),
   index('created_at_idx').on(table.createdAt),

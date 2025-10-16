@@ -120,6 +120,8 @@ describe('Dashboard', () => {
       expiresAt: new Date(Date.now() + 60000),
       priceCacheIdAtGuess: 1,
       priceCacheIdAtResolve: null,
+      resolutionNotes: null,
+      resolvedBy: null,
     };
 
     it('should create an up guess when up button is clicked', async () => {
@@ -207,6 +209,8 @@ describe('Dashboard', () => {
       expiresAt: new Date(Date.now() + 60000),
       priceCacheIdAtGuess: 1,
       priceCacheIdAtResolve: null,
+      resolutionNotes: null,
+      resolvedBy: null,
     };
 
     it('should restore active guess on mount', async () => {
@@ -235,6 +239,8 @@ describe('Dashboard', () => {
         expiresAt: new Date(now + 60000), // 60 seconds from now
         priceCacheIdAtGuess: 1,
         priceCacheIdAtResolve: null,
+        resolutionNotes: null,
+        resolvedBy: null,
       };
 
       vi.mocked(createGuess).mockResolvedValue(activeGuess);

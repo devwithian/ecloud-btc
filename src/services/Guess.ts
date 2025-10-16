@@ -68,6 +68,7 @@ export async function pollActiveGuesses() {
             await tx.update(guessSchema).set({
               resolvedAt: now,
               priceCacheIdAtResolve: currentPrice.id,
+              resolutionNotes: isStale ? 'live_price_stale' : 'price_unchanged',
             }).where(eq(guessSchema.id, activeGuess.id));
 
             return { success: false, error: 'price_stale' };
