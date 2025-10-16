@@ -201,6 +201,8 @@ export default function Dashboard() {
   }, []);
 
   const progress = useMemo(() => ((60 - countdown) / 60) * 100, [countdown]);
+
+  // Calculate price range for Y axis with some padding
   const priceRange = useMemo(() => {
     if (chartData.length === 0) {
       return { min: 0, max: 100000 };
