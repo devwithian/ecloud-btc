@@ -16,12 +16,20 @@ export async function getBTCPrice(): Promise<CoinGeckoPrice['bitcoin']> {
     precision: '2',
   });
 
+  const headers: Record<string, string> = {
+    Accept: 'application/json',
+  };
+
+  // Add API key if available
+  const apiKey = process.env.COINGECKO_API_KEY;
+  if (apiKey) {
+    headers['x-cg-demo-api-key'] = apiKey;
+  }
+
   const response = await fetch(
     `${COINGECKO_API_URL}${BTC_PRICE_ENDPOINT}?${queryParams}`,
     {
-      headers: {
-        Accept: 'application/json',
-      },
+      headers,
     },
   );
 
