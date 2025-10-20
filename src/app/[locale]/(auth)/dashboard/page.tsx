@@ -168,7 +168,7 @@ export default function Dashboard() {
       // Check if there's an active guess from /api/guesses/active
       getActiveGuess().then((data: Guess) => {
         if (data && data.guessDirection) {
-          setDirection(data.guessDirection ? 'up' : 'down');
+          setDirection(data.guessDirection === 1 ? 'up' : 'down');
           const shouldBeResolvedAt = new Date(data.createdAt).getTime() + RESOLUTION_TIME * 1000;
           const now = Date.now();
           const diffSec = Math.max(0, Math.floor((shouldBeResolvedAt - now) / 1000));
